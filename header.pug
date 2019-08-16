@@ -1,0 +1,35 @@
+//- nav.navbar.navbar-inverse(role='navigation' style='padding-left:130px;')
+//-       ul.nav.navbar-nav
+//-         li.active
+//-           a(href='/')
+//-             | Home
+//-             span.sr-only (current)
+//-         li
+//-           a(href='/projects') Projects
+//-         li
+//-           a(href='/services') Services
+//-         li
+//-           a(href='/about') About us
+//-         li
+//-           a(href='/Contact') Contact us
+
+nav.navbar.navbar-expand-lg.navbar-light.bg-light
+  a.navbar-brand(href='#') Anish's Portfolio
+  button.navbar-toggler(type='button' data-toggle='collapse' data-target='#navbarNav' aria-controls='navbarNav' aria-expanded='false' aria-label='Toggle navigation')
+    span.navbar-toggler-icon
+  #navbarNav.collapse.navbar-collapse
+    ul.navbar-nav
+      li.nav-item.active
+        a.nav-link(href='/')
+          | Home 
+          span.sr-only (current)
+      li.nav-item
+        a.nav-link(href='/projects') Projects
+      li.nav-item
+        a.nav-link(href='/services') Services
+      li.nav-item
+        a.nav-link(href='/about') About
+      li.nav-item
+        a.nav-link(href='/contact') Contact Us
+        
+      
